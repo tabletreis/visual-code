@@ -1,0 +1,19 @@
+private void button1_Click(object sender, EventArgs e)
+          {
+              pictureBox1.ImageLocation = "https://kutay2.com.tr/upload/news/637ca440b5514.png";
+          }
+         
+          private void button2_Click(object sender, EventArgs e)
+          {
+              pictureBox1.ImageLocation = "https://www.marmaracicek.com/urunler/pembe-lila-kir-cicekleri-buket-.jpg";
+          }
+         
+          private void button3_Click(object sender, EventArgs e)
+          {
+              pictureBox1.ImageLocation = "https://cdn.evkur.com.tr/c/Product/thumbs/z2_to17cn_500.jpg";
+          }
+         
+          private void button4_Click(object sender, EventArgs e)
+          {
+              pictureBox1.ImageLocation = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/220px-Ash_Tree_-_geograph.org.uk_-_590710.jpg";
+          }

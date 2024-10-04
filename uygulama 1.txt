@@ -1,0 +1,1 @@
+Text = (textBox1.Text);

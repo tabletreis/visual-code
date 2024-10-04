@@ -1,0 +1,8 @@
+ int uzunkenar;
+ int kısakenar;
+ uzunkenar=Convert.ToInt32(textBox1.Text);
+ kısakenar=Convert.ToInt32(textBox2.Text);
+ int alanı = uzunkenar * kısakenar;
+ int cevresi = uzunkenar * 2 + kısakenar * 2;
+DialogResult result =MessageBox.Show("alanı: " + alanı + " 2çevresi: " + cevresi, "alan kenar hesaplama");
+ MessageBoxIcon icon = MessageBoxIcon.Information;

@@ -1,0 +1,14 @@
+            DialogResult result = MessageBox.Show("hoşgeldiniz sayın "+textBox1.Text , "hoşgeldiniz ",
+MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            if (result == DialogResult.Abort)
+            {
+                this.Close();
+            }
+            else if (result == DialogResult.Retry)
+            {
+
+            }
+            else
+            {
+
+            }

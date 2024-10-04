@@ -1,0 +1,23 @@
+ private void button1_Click(object sender, EventArgs e)
+          {
+              BackColor = Color.Red;
+              label1.Text = "kırmızı";
+          }
+      
+          private void button2_Click(object sender, EventArgs e)
+          {
+              BackColor = Color.Yellow;
+              label1.Text = "sarı";
+          }
+      
+          private void button4_Click(object sender, EventArgs e)
+          {
+              BackColor = Color.Blue;
+              label1.Text = "mavi";
+          }
+      
+          private void button3_Click(object sender, EventArgs e)
+          {
+              BackColor = Color.Black;
+              label1.Text = "siyah";
+          }
